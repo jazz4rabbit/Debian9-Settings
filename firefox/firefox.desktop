@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=Firefox
+Name[ko]=Firefox
+Comment=Browse the World Wide Web
+Comment[ko]=웹을 돌아 다닙니다
+GenericName=Web Browser
+GenericName[ko]=웹 브라우저
+X-GNOME-FullName=Firefox Web Browser
+X-GNOME-FullName[ko]=Firefox 웹 브라우저
+Exec=/opt/firefox/firefox %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=firefox
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=Firefox
+StartupNotify=true
+Actions=new-window;new-private-window;
+
+[Desktop Action new-window]
+Name=Open a New Window
+Name[ko]=새 창 열기
+Exec=/opt/firefox/firefox -new-window %u
+
+[Desktop Action new-private-window]
+Name=Open a New Private Window
+Exec=/opt/firefox/firefox -private-window %u
