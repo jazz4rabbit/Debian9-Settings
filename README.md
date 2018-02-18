@@ -9,6 +9,9 @@
     - firefox-esr -> firefox 
   - git
     - `git config --global core.editor vim`
+    - `git config --global user.email "jazz4rabbit@gmail.com"`
+    - `git config --global user.name "jazz4rabbit"`
+
   - vim (from source)
     - Vundle
       - NERDTree
@@ -17,6 +20,7 @@
         - C-family
         - golang
         - javascript
+  - docker (using the repository)
 
 ## Installation(설치)
 ```

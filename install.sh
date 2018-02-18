@@ -12,3 +12,6 @@ apt install git
 
 # install vim from source code
 ./packages/vim/install.sh
+
+# install docker
+./packages/docker/install.sh
