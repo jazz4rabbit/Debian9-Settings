@@ -4,8 +4,7 @@
 cd "$(dirname "$0")"
 
 # remove firefox-esr chromium (쓰지 않는 브라우저 지우기)
-apt purge firefox-esr
-apt purge chromium
+apt purge -y firefox-esr chromium
 
 # install firefox (파이어폭스 설치)
 wget -O firefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"

@@ -3,6 +3,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 cp ~/.vimrc ~/.vimrc.bak 2>/dev/null
 
+cd "$(dirname "$0")"
+
 sed -n "/begin Vundle/,/end Vundle/p" vimrc.txt > ~/.vimrc
 vim +PluginInstall +qall
 
