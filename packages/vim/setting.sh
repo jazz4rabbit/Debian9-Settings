@@ -11,4 +11,4 @@ vim +PluginInstall +qall
 cp vimrc.txt ~/.vimrc
 
 cd ~/.vim/bundle/YouCompleteMe
-python3 install.py --clang-completer --go-completer --js-completer
+python3 install.py --clang-completer # --go-completer --js-completer

@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # install korea fonts
-apt install -y fonts-nanum
-apt install -y ibus ibus-hangul
+apt-get install -y fonts-noto fonts-nanum
+apt-get install -y ibus ibus-hangul
 
 # install firefox
 ./packages/firefox/install.sh
 
 # install git
-apt install git
+apt-get install -y git
 
 # install vim from source code
 ./packages/vim/install.sh
