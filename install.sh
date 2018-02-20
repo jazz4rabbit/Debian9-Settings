@@ -15,3 +15,6 @@ apt install git
 
 # install docker
 ./packages/docker/install.sh
+
+# install powerline
+./packages/powerline/install.sh
